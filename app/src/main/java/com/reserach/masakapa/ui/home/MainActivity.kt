@@ -41,6 +41,7 @@ class MainActivity : AppCompatActivity() {
         initComponent()
         initData()
 
+
     }
 
     private fun initRequestData() {

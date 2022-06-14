@@ -30,7 +30,7 @@
                     android:layout_height="match_parent"
                     android:inputType="text"
                     android:maxLines="1"
-                    android:hint="search categories" />
+                    android:hint="search receipt" />
 
             </com.google.android.material.textfield.TextInputLayout>
 

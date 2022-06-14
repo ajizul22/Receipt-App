@@ -2,6 +2,7 @@ package com.reserach.masakapa.ui.middle
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import com.reserach.masakapa.R
@@ -20,6 +21,7 @@ class MiddleActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         bind = DataBindingUtil.setContentView(this,R.layout.activity_middle)
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
 
         val intent = intent
         val keylayout = intent.getIntExtra("KEY_OPEN_LAYOUT", 0)
